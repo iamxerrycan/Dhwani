@@ -1,13 +1,12 @@
-import React from 'react'
-import './Radiation.css'
+import React from "react";
+import "./Radiation.css";
 
 const Radiation = () => {
   return (
-    <section id='radiation'>
+    <div id="radiation">
+      <div style={{ height: "90vh", width: "100%" }}>Radiation</div>
+    </div>
+  );
+};
 
-    <div style={{height: "90vh", width: "100%"}}>Radiation</div>
-        </section>
-  )
-}
-
-export default Radiation
+export default Radiation;
