@@ -22,18 +22,15 @@
 .nav-links li{
     list-style-type: none;
     margin: 5px;
+    color: aliceblue;
 }
-
-.active{
-    text-decoration: none;
-    marker: none;
-}
-
 .active{
     text-decoration: none;
     list-style-type: none;
 }
-
+a{
+    color: aliceblue;
+}
 a:hover{
     color: rgb(0, 80, 80);
 }

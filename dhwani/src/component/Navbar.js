@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
 import logo from '../assets/dhwani.jpg'; 
 import './Navbar.css'
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -13,29 +13,29 @@ const Navbar = () => {
       </div>
       <ul className="nav-links">
         <li>
-          <NavLink exact to="/" activeClassName="active">
+          <Link to="/" activeClassName="active">
             Home
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink to="/planet" activeClassName="active">
+          <Link to="#planet" activeClassName="active" smooth>
             Planet
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink to="/species" activeClassName="active">
+          <Link to="#species" activeClassName="active" smooth>
             Species
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink to="/radiation" activeClassName="active">
+          <Link to="#radiation" activeClassName="active" smooth>
             Radiation
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink to="/contact" activeClassName="active">
+          <Link to="#contact" activeClassName="active" smooth>
             Contact
-          </NavLink>
+          </Link>
         </li>
       </ul>
     </nav>
