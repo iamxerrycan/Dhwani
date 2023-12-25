@@ -1,39 +1,75 @@
+/* PlanetComponent.css */
+
 .planet-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to right, rgb(39, 154, 138), rgb(46, 211, 131));
+}
+
+.planet-image,
+.animal-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.description-text,
+.animal-info {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  color: #333;
+  word-wrap: break-word;
+}
+
+.sound-button {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sound-button:hover {
+  background-color: #2980b9;
+}
+
+.second-one {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  .planet-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    padding: 20px;
-    background-image: linear-gradient( to right ,rgb(39, 154, 138), rgb(46, 211, 131));
+    align-items: center;
+    width: auto;
+    height: auto;
   }
-  
-  .planet-image, .animal-image {
-    width: 200px; 
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 15px;
+
+  .description-text,
+  .animal-info {
+    padding: 0 10px;
   }
-  
-  .description-text, .animal-info {
-    margin-bottom: 15px;
-    color: #333;
+  .planet-sound{
+    width: 200px;
   }
-  
-  .sound-button {
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .sound-button:hover {
-    background-color: #2980b9;
-  }
-/*   
-.planet-sound{
-  width: auto;
-} */
+}

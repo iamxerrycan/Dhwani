@@ -8,6 +8,14 @@ import logo4 from '../assets/img/wave.jpg'
 const Home = () => {
   return (
     <div id="/" className="home-main">
+           <div className="intro-section">
+        <h3>Welcome To Dhwani!</h3>
+        <p>
+          Dhwani aims to provide real sounds of planets and ancient species,
+          offering an immersive experience into the natural sounds of our universe's
+          diverse elements.
+        </p>
+      </div>
       <div className="content-section">
         <div className="content-item">
           <img src={logo1} alt="Image 1" />
@@ -26,14 +34,7 @@ const Home = () => {
           <p>Radiation , i`m going to add sound .</p>
         </div>
       </div>
-      <div className="intro-section">
-        <h3>Welcome To Dhwani!</h3>
-        <p>
-          Dhwani aims to provide real sounds of planets and ancient species,
-          offering an immersive experience into the natural sounds of our universe's
-          diverse elements.
-        </p>
-      </div>
+ 
     </div>
   );
 };
