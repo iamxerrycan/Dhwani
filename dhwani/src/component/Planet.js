@@ -1,24 +1,28 @@
 import React from "react";
 import PlanetComponent from "../page/PlanetComponent";
 import './Planet.css'
+import mercuryImage from '../assets/img/mercuri.jpeg'
+import mercurySound from '../assets/sound/mercury.mp3'
+import blackwhole from '../assets/sound/bwhole.webp'
+import blackwholem from '../assets/sound/bwhole.mp3'
 
 const Planet = () => {
   return (
     <section id="planet">
-      <h2>Planets</h2>
       <div className="planets-gallery">
         <PlanetComponent
           name="Mercury"
-          imageSrc="mercury.jpg"
+          imageSrc={mercuryImage}
           radiationLevel="Moderate"
-          soundSrc="mercury_sound.mp3"
+          soundSrc={mercurySound}
         />
         <PlanetComponent
-          name="Venus"
-          imageSrc="venus.jpg"
-          radiationLevel="High"
-          soundSrc="venus_sound.mp3"
+          name="Kalpanwa"
+          imageSrc={blackwhole}
+          radiationLevel="danger hai dekhna bhi mat"
+          soundSrc={blackwholem}
         />
+        {/* Add other PlanetComponent instances as needed */}
       </div>
     </section>
   );

@@ -1,0 +1,39 @@
+.planet-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient( to right ,rgb(39, 154, 138), rgb(46, 211, 131));
+  }
+  
+  .planet-image, .animal-image {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .description-text, .animal-info {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .sound-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sound-button:hover {
+    background-color: #2980b9;
+  }
+/*   
+.planet-sound{
+  width: auto;
+} */
