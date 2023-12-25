@@ -5,7 +5,6 @@ import Home from "../src/component/Home";
 import Planet from "../src/component/Planet";
 import Species from "../src/component/Species";
 import Radiation from "../src/component/Radiation";
-import Contact from "../src/component/Contact";
 import Footer from "../src/component/Footer";
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
         <Planet />
         <Species />
         <Radiation />
-        <Contact />
         <Footer />
       </div>
     </BrowserRouter>
