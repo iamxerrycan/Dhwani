@@ -36,3 +36,27 @@ img{
     width: 150px;
     height: 150px;
 }
+
+@media screen and (max-width: 400px){
+  .home-main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background-image: linear-gradient( to right, rgb(39, 148, 134), rgb(46, 211, 131));
+    color: aliceblue;
+    flex-direction: column;
+  }
+  .content-section {
+display: none;
+  }
+  .intro-section{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: flex-start;
+
+  }
+}
