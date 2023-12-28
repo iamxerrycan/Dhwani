@@ -18,7 +18,8 @@
     position: absolute;
     top: 25px;
     left: 10px; 
-    background-image: linear-gradient( to right, rgb(36, 143, 129), rgb(46, 211, 131));
+    color: aliceblue;
+    background-image: white !important;
     padding: 10px;
     color: black;
     border-radius: 10px;

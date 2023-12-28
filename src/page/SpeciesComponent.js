@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./PlanetComponent.css";
 
 const SpeciesComponent = (props) => {
-  const { name, imageSrc, information, soundSrc } = props;
+  const { name, imageSrc, information, soundSrc , description} = props;
 
   return (
     <div className="planet-container">
@@ -14,10 +14,7 @@ const SpeciesComponent = (props) => {
       </div>
       <div className="second-one">
         <p className="description-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+      {description}
         </p>
         <audio className="planet-sound" src={soundSrc} controls loop />
       </div>
