@@ -18,7 +18,6 @@ const Footer = () => {
         <div className="footer-section social">
           <h2>Follow Me</h2>
           <ul className="social-links">
-            <li><a href="https://twitter.com/rajshish" target="_blank" rel="noopener noreferrer">Twitter</a></li>
             <li><a href="https://github.com/rajshish" target="_blank" rel="noopener noreferrer">GitHub</a></li>
             <li><a href="https://linkedin.com/in/rajshish" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
           </ul>
